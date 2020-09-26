@@ -2,22 +2,38 @@ package modelo;
 
 public class Retangulo {
 
-	private float lado1, lado2, borda1;
+	private float lado1, lado2;
 		
-	public Retangulo(float l1, float l2, float b1) {
+	public Retangulo(float l1, float l2) {
 		this.lado1 = l1;
 		this.lado2 = l2;
-		this.borda1 = b1;
 	}
 	
 	public Retangulo() {}
 
-	public String calcularMaterial() {
+	public float calcularArea() {
 		float area;
-		
-		area = lado1*lado2 - (lado1-borda1)*(lado2-borda1);
-				
-		return ("O consumo de madeira para a moldura será de : " + area + "cm²");
+		area = lado1*lado2;
+		return area;
 	}
+
+	public float getLado1() {
+		return lado1;
+	}
+
+	public void setLado1(float lado1) {
+		this.lado1 = lado1;
+	}
+
+	public float getLado2() {
+		return lado2;
+	}
+
+	public void setLado2(float lado2) {
+		this.lado2 = lado2;
+	}
+	
+	
+	
 	
 }

@@ -4,6 +4,8 @@ package visao;
 
 import javax.swing.JOptionPane;
 
+import modelo.Moldura;
+
 import modelo.Retangulo;
 
 public class Teste {
@@ -23,13 +25,14 @@ public class Teste {
         bo_string = JOptionPane.showInputDialog("Valor da BORDA (cm²): ");
         borda = Float.parseFloat(bo_string);
         
-        Retangulo r1 = new Retangulo(base, altura, borda);
-                      
-        JOptionPane.showMessageDialog(null, r1.calcularMaterial());
+        Retangulo r1 = new Retangulo(base, altura);
         
+        Retangulo r2 = new Retangulo(base-borda*2, altura-borda*2);
         
-
-
+        Moldura m1 = new Moldura (r1.calcularArea(),r2.calcularArea());
+                 		                    
+        JOptionPane.showMessageDialog(null, m1.calcularMoldura());
+            
 
 		}
 
