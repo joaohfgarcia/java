@@ -7,8 +7,4 @@ public class NaoInformado extends Saudacao{
 				
 	}
 		
-	public String Mensagem(){
-		return "Bem vindo(a): ";
-	}
-
 }

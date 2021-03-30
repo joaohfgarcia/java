@@ -18,7 +18,7 @@ public class Main {
 		
 		Saudacao msg = fabrica.getSaudacao(genero);
 		
-		JOptionPane.showMessageDialog(null, msg.Mensagem() + nome);
+		JOptionPane.showMessageDialog(null, msg.mensagem() + nome);
 		
 		
 

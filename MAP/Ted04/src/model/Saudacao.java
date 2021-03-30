@@ -18,8 +18,8 @@ public class Saudacao {
 		this.genero = genero;
 	}
 	
-	public String Mensagem() {
-		return null;
+	public String mensagem() {
+		return "Bem vindo(a) ";
 		
 	}
 	

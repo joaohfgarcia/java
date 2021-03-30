@@ -7,7 +7,7 @@ public class Feminino extends Saudacao{
 		
 	}
 	
-	public String Mensagem(){
+	public String mensagem(){
 		return "Bem vinda Sra. ";
 	}
 	

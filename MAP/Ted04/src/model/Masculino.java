@@ -7,7 +7,7 @@ public class Masculino extends Saudacao{
 				
 	}
 		
-	public String Mensagem(){
+	public String mensagem(){
 		return "Bem vindo Sr. ";
 	}
 	
