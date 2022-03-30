@@ -1,15 +1,13 @@
-package br.com.demo;
+package com.uniesp.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import java.util.ArrayList;
-
 @SpringBootApplication
-public class DemoApplication {
+public class AppDemo {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DemoApplication.class, args);
+		SpringApplication.run(AppDemo.class, args);
 	}
 
 }
