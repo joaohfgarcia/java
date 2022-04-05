@@ -12,7 +12,9 @@ public class AlunoController {
 
     private final AlunoService alunoService;
 
-    public AlunoController(AlunoService alunoService) {this.alunoService = alunoService;}
+    public AlunoController(AlunoService alunoService) {
+        this.alunoService = alunoService;
+    }
 
     @PostMapping("/salvar")
     public ResponseEntity<?> salvar(@RequestBody AlunoRequest request){

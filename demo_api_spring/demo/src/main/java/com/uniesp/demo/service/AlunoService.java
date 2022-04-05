@@ -3,7 +3,7 @@ package com.uniesp.demo.service;
 import com.uniesp.demo.entity.Aluno;
 import com.uniesp.demo.entity.request.AlunoRequest;
 import com.uniesp.demo.entity.response.AlunoResponse;
-import com.uniesp.demo.exceptions.EntityNotFoundException;
+import com.uniesp.demo.exception.EntityNotFoundException;
 import com.uniesp.demo.repository.AlunoRepository;
 import com.uniesp.demo.utils.ConvertUtils;
 import org.springframework.stereotype.Service;

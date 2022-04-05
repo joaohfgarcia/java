@@ -1,4 +1,4 @@
-package com.uniesp.demo.exceptions;
+package com.uniesp.demo.exception;
 
 import lombok.Getter;
 
