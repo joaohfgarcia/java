@@ -36,3 +36,11 @@ Vantagens:
 Desvantagens:
 • Precisa construir um objeto de uma classe concreta;
 • Nem sempre é a solução para tudo
+
+TEMPLATE METHOD
+Vantagens:
+• Reutiliza-se o código;
+• Conduz a uma estrutura de inversão de controle, de modo que a classe-mãe chama as operações de uma subclasse. 
+
+Desvantagens:
+• Torna-se fácil esquecer de chamar a operação herdada.
